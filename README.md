@@ -1,32 +1,27 @@
-# Country Module
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/harshildarji/country-module.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/harshildarji/country-module/alerts/)
+# Country
+#### Package published at: [PyPI](https://pypi.org/project/country/)
 
 Python module for country codes with ISO codes.
 
-#### How to use?
-
-- Download **`country.py`**.
-- Place **`country.py`** into your project folder.
-- Import it in your program file as:
-```python
-import country
-```
-- Now, to get country code:
-```python
-country.see[country_name][0]   # pass '0' to get country code
-```
-- To get country ISO code:
-```python
-country.see[country_name][1]   # pass '1' to get ISO code
+#### Install:
+```bash
+pip install country
 ```
 
-#### Example:
-
+#### Use:
+Create a python script, for example **`example.py`**:
 ```python
-import country
+from country import country
 
-while True:
-    cName = input('Country: ').title()
-    print('Country code of %s: %s' % (cName, country.see[cName][0]))
-    print('ISO code of %s: %s\n' % (cName, country.see[cName][1]))
+print('Country code: {}'.format(country.see(country_name='India', option=0)))
+print('ISO code: {}'.format(country.see(country_name='India', option=1)))
 ```
+Save and run:
+```bash
+❯❯❯ py example.py
+Country code: +91
+ISO code: IN
+```
+
+---
+#### Author: [Harshil Darji](https://github.com/harshildarji)

@@ -1,7 +1,4 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-
-see = {
+look = {
     'Afghanistan': ['+93', 'AF'],
     'Albania': ['+355', 'AL'],
     'Algeria': ['+213', 'DZ'],
@@ -243,3 +240,14 @@ see = {
     'Zambia': ['+260', 'ZM'],
     'Zimbabwe': ['+263', 'ZW']
     }
+
+
+def see(country_name: str, option: int):
+    """
+    Parameters:
+
+    country_name: Country name for which to find country code or ISO code
+
+    option: 0 for country code, 1 for ISO code
+    """
+    return look[country_name.lower().title()][option]
