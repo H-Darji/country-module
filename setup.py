@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="country_module",
-    version="1.0.0",
+    version="1.0.1",
     author="Harshil Darji",
     author_email="darjiharshil2994@gmail.com",
     description="Python module for country codes with ISO codes.",
