@@ -1,6 +1,7 @@
 # Country
 #### Package published at: [PyPI](https://pypi.org/project/country_module/)
 [![Downloads](https://static.pepy.tech/personalized-badge/country-module?period=total&units=international_system&left_color=grey&right_color=blue&left_text=Downloads)](https://pepy.tech/project/country-module)
+
 ---
 
 Python module for country codes with ISO codes.
