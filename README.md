@@ -1,6 +1,6 @@
 # Country
 #### Package published at: [PyPI](https://pypi.org/project/country_module/)
-[![Downloads](https://static.pepy.tech/personalized-badge/country-module?period=total&units=international_system&left_color=grey&right_color=blue&left_text=Downloads)](https://pepy.tech/project/country-module)
+[![Downloads](https://pepy.tech/badge/country-module)](https://pepy.tech/project/country-module)
 
 ---
 
